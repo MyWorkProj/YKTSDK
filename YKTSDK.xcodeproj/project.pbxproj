@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D499A0481E79121B0015A9BE /* YKTSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D499A0451E79121B0015A9BE /* YKTSDK.h */; };
+		D499A0501E7912310015A9BE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D499A04F1E7912310015A9BE /* Reachability.m */; };
+		D499A0531E79134D0015A9BE /* YKTCall.m in Sources */ = {isa = PBXBuildFile; fileRef = D499A0521E79134D0015A9BE /* YKTCall.m */; };
+		D499A0561E79149D0015A9BE /* YKTGlobalParams.m in Sources */ = {isa = PBXBuildFile; fileRef = D499A0551E79149D0015A9BE /* YKTGlobalParams.m */; };
+		D499A0591E791E070015A9BE /* YKTNetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D499A0581E791E070015A9BE /* YKTNetworkUtility.m */; };
+		D499A05C1E791E6A0015A9BE /* YKTApiResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D499A05B1E791E6A0015A9BE /* YKTApiResult.m */; };
+		D499A05F1E7923680015A9BE /* YKTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D499A05E1E7923680015A9BE /* YKTUtility.m */; };
+		D499A0631E7923D50015A9BE /* YKTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D499A0621E7923D50015A9BE /* YKTLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D499A0401E79121B0015A9BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D499A0481E79121B0015A9BE /* YKTSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D499A0421E79121B0015A9BE /* libYKTSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYKTSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D499A0451E79121B0015A9BE /* YKTSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKTSDK.h; sourceTree = "<group>"; };
+		D499A04E1E7912310015A9BE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D499A04F1E7912310015A9BE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D499A0511E79134D0015A9BE /* YKTCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTCall.h; sourceTree = "<group>"; };
+		D499A0521E79134D0015A9BE /* YKTCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTCall.m; sourceTree = "<group>"; };
+		D499A0541E79149D0015A9BE /* YKTGlobalParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTGlobalParams.h; sourceTree = "<group>"; };
+		D499A0551E79149D0015A9BE /* YKTGlobalParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTGlobalParams.m; sourceTree = "<group>"; };
+		D499A0571E791E070015A9BE /* YKTNetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTNetworkUtility.h; sourceTree = "<group>"; };
+		D499A0581E791E070015A9BE /* YKTNetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTNetworkUtility.m; sourceTree = "<group>"; };
+		D499A05A1E791E6A0015A9BE /* YKTApiResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTApiResult.h; sourceTree = "<group>"; };
+		D499A05B1E791E6A0015A9BE /* YKTApiResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTApiResult.m; sourceTree = "<group>"; };
+		D499A05D1E7923680015A9BE /* YKTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTUtility.h; sourceTree = "<group>"; };
+		D499A05E1E7923680015A9BE /* YKTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTUtility.m; sourceTree = "<group>"; };
+		D499A0601E7923800015A9BE /* YKTGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKTGlobal.h; sourceTree = "<group>"; };
+		D499A0611E7923D50015A9BE /* YKTLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTLoadingView.h; sourceTree = "<group>"; };
+		D499A0621E7923D50015A9BE /* YKTLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D499A03F1E79121B0015A9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D499A0391E79121B0015A9BE = {
+			isa = PBXGroup;
+			children = (
+				D499A0441E79121B0015A9BE /* YKTSDK */,
+				D499A0431E79121B0015A9BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D499A0431E79121B0015A9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D499A0421E79121B0015A9BE /* libYKTSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D499A0441E79121B0015A9BE /* YKTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D499A0611E7923D50015A9BE /* YKTLoadingView.h */,
+				D499A0621E7923D50015A9BE /* YKTLoadingView.m */,
+				D499A0601E7923800015A9BE /* YKTGlobal.h */,
+				D499A05D1E7923680015A9BE /* YKTUtility.h */,
+				D499A05E1E7923680015A9BE /* YKTUtility.m */,
+				D499A05A1E791E6A0015A9BE /* YKTApiResult.h */,
+				D499A05B1E791E6A0015A9BE /* YKTApiResult.m */,
+				D499A0571E791E070015A9BE /* YKTNetworkUtility.h */,
+				D499A0581E791E070015A9BE /* YKTNetworkUtility.m */,
+				D499A0541E79149D0015A9BE /* YKTGlobalParams.h */,
+				D499A0551E79149D0015A9BE /* YKTGlobalParams.m */,
+				D499A04E1E7912310015A9BE /* Reachability.h */,
+				D499A04F1E7912310015A9BE /* Reachability.m */,
+				D499A0451E79121B0015A9BE /* YKTSDK.h */,
+				D499A0511E79134D0015A9BE /* YKTCall.h */,
+				D499A0521E79134D0015A9BE /* YKTCall.m */,
+			);
+			path = YKTSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D499A0411E79121B0015A9BE /* YKTSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D499A04B1E79121B0015A9BE /* Build configuration list for PBXNativeTarget "YKTSDK" */;
+			buildPhases = (
+				D499A03E1E79121B0015A9BE /* Sources */,
+				D499A03F1E79121B0015A9BE /* Frameworks */,
+				D499A0401E79121B0015A9BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKTSDK;
+			productName = YKTSDK;
+			productReference = D499A0421E79121B0015A9BE /* libYKTSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D499A03A1E79121B0015A9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "中联环信";
+				TargetAttributes = {
+					D499A0411E79121B0015A9BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D499A03D1E79121B0015A9BE /* Build configuration list for PBXProject "YKTSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D499A0391E79121B0015A9BE;
+			productRefGroup = D499A0431E79121B0015A9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D499A0411E79121B0015A9BE /* YKTSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D499A03E1E79121B0015A9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D499A0591E791E070015A9BE /* YKTNetworkUtility.m in Sources */,
+				D499A05F1E7923680015A9BE /* YKTUtility.m in Sources */,
+				D499A0561E79149D0015A9BE /* YKTGlobalParams.m in Sources */,
+				D499A0531E79134D0015A9BE /* YKTCall.m in Sources */,
+				D499A05C1E791E6A0015A9BE /* YKTApiResult.m in Sources */,
+				D499A0631E7923D50015A9BE /* YKTLoadingView.m in Sources */,
+				D499A0501E7912310015A9BE /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D499A0491E79121B0015A9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D499A04A1E79121B0015A9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D499A04C1E79121B0015A9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D499A04D1E79121B0015A9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D499A03D1E79121B0015A9BE /* Build configuration list for PBXProject "YKTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D499A0491E79121B0015A9BE /* Debug */,
+				D499A04A1E79121B0015A9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D499A04B1E79121B0015A9BE /* Build configuration list for PBXNativeTarget "YKTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D499A04C1E79121B0015A9BE /* Debug */,
+				D499A04D1E79121B0015A9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D499A03A1E79121B0015A9BE /* Project object */;
+}
