@@ -5,7 +5,7 @@
 //  Created by wangyong on 16/9/26.
 //  Copyright © 2016年 yiketong. All rights reserved.
 //
-
+#import "YKTGlobal.h"
 #import "YKTGlobalParams.h"
 
 static YKTGlobalParams *single;
@@ -18,7 +18,7 @@ static YKTGlobalParams *single;
         single = [[super allocWithZone:nil] init];
         single.anonymous = YES;
         single.firstUse = NO;
-        single.loginToken = @"FB27CE1C-D5C9-41EA-807E-EC8C7116C0AA";
+        single.loginToken = YKT_LOGINTOKEN;
         single.group = nil;
         single.groupId = 0;
         single.unreadLogCount = 0;

@@ -6,7 +6,6 @@
 //  Copyright © 2017年 中联环信. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "YKTCall.h"
 
 @interface YKTSDK : NSObject

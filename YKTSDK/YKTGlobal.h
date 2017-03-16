@@ -9,6 +9,10 @@
 #ifndef YKTGlobal_h
 #define YKTGlobal_h
 
+// Default login_token
+//#define YKT_LOGINTOKEN @"EA2A63C9-39D6-4E99-8DE7-41D678F4FF43"
+#define YKT_LOGINTOKEN @"AB9CAB76-4D3E-4440-AE8A-1CF83B4DAE5F"
+
 //App default colro
 #define YKT_SYS_APP_BLUE  [UIColor colorWithRed:17.0/255.0 green:184.0/255.0 blue:246.0/255.0 alpha:1.0]
 
