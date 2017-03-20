@@ -11,10 +11,10 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = D499A07A1E794C2D0015A9BE /* Build configuration list for PBXAggregateTarget "Framework" */;
 			buildPhases = (
+				D4AC3B461E7A4499001D90BF /* MultiPlatform Build */,
 			);
 			dependencies = (
 				D4AC3AF91E7A2222001D90BF /* PBXTargetDependency */,
-				D499A09C1E79527A0015A9BE /* PBXTargetDependency */,
 			);
 			name = Framework;
 			productName = Framework;
@@ -42,13 +42,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D499A09B1E79527A0015A9BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D499A03A1E79121B0015A9BE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D499A08F1E7951D00015A9BE;
-			remoteInfo = YKTSDKResources;
-		};
 		D4AC3AF81E7A2222001D90BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D499A03A1E79121B0015A9BE /* Project object */;
@@ -91,22 +84,13 @@
 		D499A0611E7923D50015A9BE /* YKTLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTLoadingView.h; sourceTree = "<group>"; };
 		D499A0621E7923D50015A9BE /* YKTLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTLoadingView.m; sourceTree = "<group>"; };
 		D499A0851E794D840015A9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D499A0901E7951D00015A9BE /* YKTSDKResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKTSDKResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D499A0921E7951D00015A9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4AC3AE71E7A1F6B001D90BF /* YKTSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YKTSDK.h; path = YKTSDK/YKTSDK.h; sourceTree = "<group>"; };
-		D4AC3B2E1E7A2C90001D90BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4AC3B351E7A2E11001D90BF /* YKTSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = YKTSDK.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D499A03F1E79121B0015A9BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D499A08D1E7951D00015A9BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				D499A0421E79121B0015A9BE /* libYKTSDK.a */,
-				D499A0901E7951D00015A9BE /* YKTSDKResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +124,7 @@
 		D499A0441E79121B0015A9BE /* YKTSDK */ = {
 			isa = PBXGroup;
 			children = (
+				D4AC3B421E7A42EF001D90BF /* RES */,
 				D499A0611E7923D50015A9BE /* YKTLoadingView.h */,
 				D499A0621E7923D50015A9BE /* YKTLoadingView.m */,
 				D499A0601E7923800015A9BE /* YKTGlobal.h */,
@@ -180,7 +164,6 @@
 		D499A0981E7952540015A9BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D4AC3B2E1E7A2C90001D90BF /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,6 +171,13 @@
 		D4AC3B361E7A2E11001D90BF /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AC3B421E7A42EF001D90BF /* RES */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +212,7 @@
 				D499A0771E7945560015A9BE /* Build Framework */,
 				D499A0781E7949BB0015A9BE /* MultiPlatform Build */,
 				D4AC3AE91E7A20DD001D90BF /* Headers */,
+				D4AC3C281E7A8BB8001D90BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -231,23 +222,6 @@
 			productName = YKTSDK;
 			productReference = D499A0421E79121B0015A9BE /* libYKTSDK.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		D499A08F1E7951D00015A9BE /* YKTSDKResources */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D499A0931E7951D00015A9BE /* Build configuration list for PBXNativeTarget "YKTSDKResources" */;
-			buildPhases = (
-				D499A08C1E7951D00015A9BE /* Sources */,
-				D499A08D1E7951D00015A9BE /* Frameworks */,
-				D499A08E1E7951D00015A9BE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YKTSDKResources;
-			productName = YKTSDKResources;
-			productReference = D499A0901E7951D00015A9BE /* YKTSDKResources.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -263,10 +237,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					D499A0791E794C2D0015A9BE = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
-					D499A08F1E7951D00015A9BE = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -292,13 +262,12 @@
 			targets = (
 				D499A0411E79121B0015A9BE /* YKTSDK */,
 				D499A0791E794C2D0015A9BE /* Framework */,
-				D499A08F1E7951D00015A9BE /* YKTSDKResources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D499A08E1E7951D00015A9BE /* Resources */ = {
+		D4AC3C281E7A8BB8001D90BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,6 +305,20 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n\n\n\n";
 		};
+		D4AC3B461E7A4499001D90BF /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy the resources bundle to the user's desktop\nditto \"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.bundle\" \\\n\"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.bundle\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -353,21 +336,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D499A08C1E7951D00015A9BE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D499A09C1E79527A0015A9BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D499A08F1E7951D00015A9BE /* YKTSDKResources */;
-			targetProxy = D499A09B1E79527A0015A9BE /* PBXContainerItemProxy */;
-		};
 		D4AC3AF91E7A2222001D90BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D499A0411E79121B0015A9BE /* YKTSDK */;
@@ -512,36 +483,6 @@
 			};
 			name = Release;
 		};
-		D499A0941E7951D00015A9BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = YKTSDKResources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = YKTSDK.YKTSDKResources;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D499A0951E7951D00015A9BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = YKTSDKResources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = YKTSDK.YKTSDKResources;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,15 +509,6 @@
 			buildConfigurations = (
 				D499A07B1E794C2D0015A9BE /* Debug */,
 				D499A07C1E794C2D0015A9BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D499A0931E7951D00015A9BE /* Build configuration list for PBXNativeTarget "YKTSDKResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D499A0941E7951D00015A9BE /* Debug */,
-				D499A0951E7951D00015A9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
